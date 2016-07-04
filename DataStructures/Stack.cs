@@ -15,8 +15,42 @@ namespace DataStructures
     /// <typeparam name="T"></typeparam>
     public class Stack<T>
     {
-        LinkedList<T> _items = new LinkedList<T>();
+        DoublyLinkedList<T> _items = new DoublyLinkedList<T>();
 
+        public T Pop()
+        {
+            if (_items.Count == 0)
+            {
+                throw new InvalidOperationException("The stack is empty");
+            }
+            T last = _items.Tail.Value;
+
+            _items.RemoveLast();
+            
+            return last;
+        }
+
+        public void Push(T item)
+        {
+            _items.AddLast(item);
+        }
+
+        public T Peek()
+        {
+            if(_items.Count == 0)
+            {
+                throw new InvalidOperationException("The stack is empty");
+            }
+            return _items.Tail.Value;
+        }
+
+        public int Count
+        {
+            get
+            {
+                return _items.Count;
+            }
+        }
 
     }
 }
