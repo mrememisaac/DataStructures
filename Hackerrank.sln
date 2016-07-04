@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewOfLoops", "ReviewOfLoops\ReviewOfLoops.csproj", "{6E9DE9B8-0BCB-4616-AE2A-F183C35A9111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListApp", "LinkedList\LinkedListApp.csproj", "{DDC903A9-BF24-45C1-BF04-1134C919D848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{8A08D6C6-69C7-4DC2-89FD-A4FD21B2DC46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9DE9B8-0BCB-4616-AE2A-F183C35A9111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9DE9B8-0BCB-4616-AE2A-F183C35A9111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9DE9B8-0BCB-4616-AE2A-F183C35A9111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9DE9B8-0BCB-4616-AE2A-F183C35A9111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC903A9-BF24-45C1-BF04-1134C919D848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC903A9-BF24-45C1-BF04-1134C919D848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC903A9-BF24-45C1-BF04-1134C919D848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC903A9-BF24-45C1-BF04-1134C919D848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A08D6C6-69C7-4DC2-89FD-A4FD21B2DC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A08D6C6-69C7-4DC2-89FD-A4FD21B2DC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A08D6C6-69C7-4DC2-89FD-A4FD21B2DC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A08D6C6-69C7-4DC2-89FD-A4FD21B2DC46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
