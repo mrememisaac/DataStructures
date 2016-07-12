@@ -13,7 +13,7 @@ namespace DataStructures
     /// Is not enumerable
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class Stack<T>
+    public class Stack<T> : IStack<T>
     {
         DoublyLinkedList<T> _items = new DoublyLinkedList<T>();
 
@@ -26,7 +26,7 @@ namespace DataStructures
             T last = _items.Tail.Value;
 
             _items.RemoveLast();
-            
+
             return last;
         }
 
@@ -37,7 +37,7 @@ namespace DataStructures
 
         public T Peek()
         {
-            if(_items.Count == 0)
+            if (_items.Count == 0)
             {
                 throw new InvalidOperationException("The stack is empty");
             }
@@ -51,6 +51,5 @@ namespace DataStructures
                 return _items.Count;
             }
         }
-
     }
 }

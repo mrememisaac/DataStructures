@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContestProgram.cs" />
+    <Compile Include="BinarySearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramIcantrecall.cs" />
     <Compile Include="ProgramPhoneBook.cs" />
@@ -49,6 +51,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Algorithms\Algorithms.csproj">
+      <Project>{cc12373e-4bc3-4b47-a689-c801a0e689ba}</Project>
+      <Name>Algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataStructures\DataStructures.csproj">
+      <Project>{8a08d6c6-69c7-4dc2-89fd-a4fd21b2dc46}</Project>
+      <Name>DataStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{9e69b686-7bff-4c19-a343-2c0036549ea8}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
